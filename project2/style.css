@@ -1,0 +1,120 @@
+@import url("https://www.google.com/search?q=font.googleapis&sca_esv=989459b10be17b82&sxsrf=ACQVn0-N1VH5HuZBGekj1fak1Wq9L4snGg%3A1707398589176&ei=vdXEZcOkCuO-juMPk6y72AI&oq=font.googlr&gs_lp=Egxnd3Mtd2l6LXNlcnAiC2ZvbnQuZ29vZ2xyKgIIATILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMggQABgIGB4YCjIIEAAYCBgeGApIo5IBUPkHWI17cAF4AZABAJgBuQKgAYgVqgEHMS43LjUuMbgBAcgBAPgBAcICChAAGEcY1gQYsAPCAg0QABiABBiKBRhDGLADwgIKEAAYgAQYigUYQ8ICBRAAGIAEwgILEC4YgAQYxwEY0QPCAgoQIxiABBiKBRgnwgIQEAAYgAQYigUYQxixAxiDAcICChAAGIAEGBQYhwLiAwQYACBB4gMFEgExIECIBgGQBgo&sclient=gws-wiz-serp");
+
+ *{
+   font-family: "poppins",sans-serif;
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+
+  }
+
+body 
+    {
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background:url('cm.jpg') no-repeat;
+     background-size: cover;
+     background-position: center;
+    }
+.car
+    {
+    width: 420px;
+    background: transparent;
+    color: #fff;
+    border:2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    padding:33px 40px;
+    backdrop-filter: black(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.car h1 {
+         font-size:36 px;
+         text-align: center;
+        }
+
+.car .ck {
+   width:100%;
+   height:50px;
+   
+   margin:30px 0;
+
+   }
+
+.ck input {
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255, 255, 255, .2);
+    
+    
+    border-radius:40px;
+    font-size:16px;
+    color: #fff;
+    padding:20px 45px 20px 20px;
+
+
+}
+.ck input::placeholder {
+    color:#fff;
+}
+.ck i{
+    position: absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:20px;
+}
+
+.car .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14,5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+.car .btn{
+    width:100%;
+    height:45px;
+    background: #fff;
+    border:none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600;
+}
+
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.car .lz{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+}
+
+.lz p a:hover{
+    position:relative;
+    width: 100px;
+    height: 50px;
+    margin:30px 0;
+
+}
